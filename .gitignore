@@ -42,6 +42,9 @@ output/
 *.sqlite
 *.sqlite3
 config/.credentials.json
+test_pdfs/
+PDF_Parser_OATI_Standalone.zip
+.claude/
 
 # OS
 .DS_Store

@@ -1,0 +1,24 @@
+{
+  "version": "experimental",
+  "description": "Natasha ML Tier 3 configuration (CURRENTLY DISABLED)",
+  "enabled": false,
+  "status": "disabled",
+  "reason": "Natasha models are NOT embedded in pip packages - they download from internet on first use, violating offline-first requirement",
+  "security_issue": {
+    "problem": "navec/slovnet packages contain only code, models download at runtime (~50MB from internet)",
+    "impact": "Breaks offline-first guarantee for production deployment",
+    "user_note": "Однократная загрузка НЕ нарушает безопасность ПД (данные не передаются наружу), НО нарушает требование offline-first для production"
+  },
+  "future_enablement": {
+    "step_1": "Download models during development: python -m navec download news",
+    "step_2": "Locate downloaded models in ~/.navec/ and ~/.slovnet/",
+    "step_3": "Bundle model directories with PyInstaller (--add-data)",
+    "step_4": "Configure Natasha to load from bundled paths instead of auto-download",
+    "step_5": "Test in offline environment to verify no internet access required"
+  },
+  "current_system": {
+    "tier_1": "Manual overrides from database (highest priority)",
+    "tier_2": "pymorphy3 + Petrovich fallback (sufficient for production)",
+    "tier_3_status": "DISABLED - requires manual model bundling"
+  }
+}

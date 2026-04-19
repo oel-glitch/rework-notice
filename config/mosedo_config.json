@@ -1,0 +1,39 @@
+{
+  "automation": {
+    "engine": "PyAutoGUI",
+    "fallback": "Selenium",
+    "timeout": 60,
+    "retry_attempts": 2
+  },
+  "delays": {
+    "click": 0.5,
+    "input": 0.3,
+    "navigation": 1.0,
+    "page_load": 2.0
+  },
+  "selectors": {
+    "button_register": "//button[contains(text(), 'Зарегистрировать')]",
+    "button_send_email": "//button[contains(text(), 'Отправить по email')]",
+    "button_execution": "//button[contains(text(), 'Исполнение')]",
+    "field_nomenclature": "//input[@id='nomenclature']",
+    "field_doc_number": "//input[@id='doc_number']",
+    "field_email_subject": "//input[@id='email_subject']"
+  },
+  "workflows": {
+    "outgoing_notifications": {
+      "name": "Регистрация исходящих уведомлений",
+      "description": "Автоматическая регистрация исходящих уведомлений с отправкой email и проставлением исполнения",
+      "steps_count": 13
+    }
+  },
+  "validation": {
+    "check_success_indicators": true,
+    "screenshot_on_error": true,
+    "log_all_actions": true
+  },
+  "security": {
+    "store_credentials": false,
+    "use_system_browser": true,
+    "clear_session_on_exit": true
+  }
+}

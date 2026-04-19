@@ -1,0 +1,49 @@
+{
+  "scanner": {
+    "model": "Canon ImageFormula DR-M260",
+    "driver": "TWAIN",
+    "default_source": "ADF"
+  },
+  "scan_settings": {
+    "resolution": {
+      "default": 300,
+      "options": [200, 300, 400, 600]
+    },
+    "color_mode": {
+      "default": "Color",
+      "options": ["Color", "Grayscale", "Black and White"]
+    },
+    "duplex": {
+      "default": true,
+      "enabled": true
+    },
+    "format": {
+      "default": "PDF",
+      "options": ["PDF", "TIFF", "JPEG"]
+    },
+    "compression": {
+      "enabled": true,
+      "quality": 85
+    }
+  },
+  "ocr": {
+    "engine": "Tesseract",
+    "language": "rus+eng",
+    "confidence_threshold": 0.7,
+    "preprocessing": {
+      "deskew": true,
+      "denoise": true,
+      "enhance": true
+    }
+  },
+  "output": {
+    "folder": "scans",
+    "naming_pattern": "scan_{date}_{time}_{counter}",
+    "create_searchable_pdf": true
+  },
+  "batch": {
+    "max_pages_per_batch": 500,
+    "auto_separate": true,
+    "blank_page_threshold": 0.98
+  }
+}

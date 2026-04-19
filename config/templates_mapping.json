@@ -1,0 +1,87 @@
+{
+  "description": "Template selection logic based on recipient combinations (typed matrix)",
+  "template_selection_rules": {
+    "single_department": {
+      "template_pattern": "template_ch3*.docx",
+      "union_included": false,
+      "description": "Single department recipient (Article 3)"
+    },
+    "multiple_departments": {
+      "template_pattern": "template_ch4_multiple*.docx",
+      "union_included": true,
+      "union_suffix": " (далее - Объединение)",
+      "description": "Multiple department recipients (Article 4)"
+    },
+    "prefecture": {
+      "template_pattern": "template_ch3*.docx",
+      "union_included": false,
+      "description": "Prefecture recipient only (Article 3 - CORRECTED 2025-11-14)"
+    },
+    "prefecture_single_department": {
+      "template_pattern": "template_ch3*.docx",
+      "union_included": false,
+      "union_suffix": "",
+      "description": "Prefecture + single department (Article 3) - single department forward"
+    },
+    "prefecture_multiple": {
+      "template_pattern": "template_ch4_multiple*.docx",
+      "union_included": true,
+      "union_suffix": " (далее - Объединение)",
+      "description": "Prefecture + multiple departments (Article 4)"
+    },
+    "oati": {
+      "template_pattern": "template_ch3*.docx",
+      "union_included": false,
+      "description": "OATI recipient only (Article 3 - CORRECTED 2025-11-14)"
+    },
+    "single_department_with_oati": {
+      "template_pattern": "template_ch4_oati_handles*.docx",
+      "union_included": true,
+      "union_suffix": " (далее – Объединение)",
+      "description": "Single department + OATI handles (Article 4) - Мухтарова variant"
+    },
+    "multiple_departments_with_oati": {
+      "template_pattern": "template_ch4_oati_handles*.docx",
+      "union_included": true,
+      "union_suffix": " (далее – Объединение)",
+      "description": "Multiple departments + OATI handles (Article 4) - Мухтарова variant"
+    },
+    "prefecture_with_oati": {
+      "template_pattern": "template_ch4_oati_handles*.docx",
+      "union_included": true,
+      "union_suffix": " (далее – Объединение)",
+      "description": "Prefecture + OATI handles (any departments) (Article 4) - Мухтарова variant"
+    }
+  },
+  "deprecated_law_parts": {
+    "ch3": {
+      "condition": "single_department_without_inspector",
+      "template_pattern": "template_ch3*.docx",
+      "union_included": false
+    },
+    "ch4_prefecture": {
+      "condition": "prefecture_recipient",
+      "template_pattern": "template_ch4_prefecture*.docx",
+      "union_included": true,
+      "union_suffix": " (далее - Объединение)"
+    },
+    "ch4_multiple": {
+      "condition": "multiple_departments_or_inspector",
+      "template_pattern": "template_ch4_multiple*.docx",
+      "union_included": true,
+      "union_suffix": " (далее - Объединение)"
+    }
+  },
+  "placeholders": {
+    "applicant_name": "{{APPLICANT_NAME}}",
+    "applicant_address": "{{APPLICANT_ADDRESS}}",
+    "complaint_date": "{{COMPLAINT_DATE}}",
+    "complaint_number": "{{COMPLAINT_NUMBER}}",
+    "complaint_text": "{{COMPLAINT_TEXT}}",
+    "recipient_name": "{{RECIPIENT_NAME}}",
+    "recipient_position": "{{RECIPIENT_POSITION}}",
+    "department_name": "{{DEPARTMENT_NAME}}",
+    "portal_source": "{{PORTAL_SOURCE}}",
+    "union_suffix": "{{UNION_SUFFIX}}"
+  }
+}

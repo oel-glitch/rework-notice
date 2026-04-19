@@ -1,0 +1,38 @@
+{
+  "test_case_1": {
+    "last_name": "Щеголева",
+    "first_name": "Анна",
+    "middle_name": "Михайловна",
+    "email": "test@example.com",
+    "oati_number": "01-21-П-9141/25",
+    "date": "15.10.2025",
+    "law_part": "ч.3",
+    "departments": ["Департамент транспорта"],
+    "expected_gender": "female",
+    "expected_salutation": "Уважаемая"
+  },
+  "test_case_2": {
+    "last_name": "Иванов",
+    "first_name": "Петр",
+    "middle_name": "Сергеевич",
+    "email": "ivanov@example.com",
+    "oati_number": "01-21-П-1234/25",
+    "date": "20.10.2025",
+    "law_part": "ч.4",
+    "departments": ["Департамент 1", "Департамент 2"],
+    "expected_gender": "male",
+    "expected_salutation": "Уважаемый"
+  },
+  "test_case_3": {
+    "last_name": "Петрова",
+    "first_name": "Мария",
+    "middle_name": "Александровна",
+    "email": "petrova@example.com",
+    "oati_number": "01-21-П-5678/25",
+    "date": "25.10.2025",
+    "law_part": "ч.4",
+    "departments": ["Префектура ЦАО"],
+    "expected_gender": "female",
+    "expected_salutation": "Уважаемая"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "api": {
+    "base_url": "https://otpravka-api.pochta.ru",
+    "version": "1.0",
+    "timeout": 30
+  },
+  "statuses": {
+    "accepted": "Принято",
+    "in_transit": "В пути",
+    "arrived": "Прибыло в место вручения",
+    "delivered": "Доставлено",
+    "return_started": "Возврат отправителю",
+    "return_completed": "Возвращено",
+    "waiting_pickup": "Ожидает получения",
+    "storage_expired": "Истек срок хранения"
+  },
+  "tracking": {
+    "auto_update_interval": 3600,
+    "batch_size": 100,
+    "retry_attempts": 3
+  },
+  "ui": {
+    "columns": [
+      "tracking_number",
+      "recipient_name",
+      "status",
+      "sent_date",
+      "delivery_date"
+    ],
+    "default_sort": "sent_date",
+    "items_per_page": 50
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "inspectors_chiefs": [
+    {
+      "last_name_nominative": "Авдеев",
+      "last_name_dative": "Авдееву",
+      "first_initial": "В",
+      "middle_initial": "Ю",
+      "organization": "Объединение административно-технических инспекций города Москвы"
+    },
+    {
+      "last_name_nominative": "Александров",
+      "last_name_dative": "Александрову",
+      "first_initial": "А",
+      "middle_initial": "С",
+      "organization": "Объединение административно-технических инспекций города Москвы"
+    },
+    {
+      "last_name_nominative": "Алёшина",
+      "last_name_dative": "Алёшиной",
+      "first_initial": "О",
+      "middle_initial": "В",
+      "organization": "Объединение административно-технических инспекций города Москвы"
+    },
+    {
+      "last_name_nominative": "Блинов",
+      "last_name_dative": "Блинову",
+      "first_initial": "Р",
+      "middle_initial": "С",
+      "organization": "Объединение административно-технических инспекций города Москвы"
+    },
+    {
+      "last_name_nominative": "Кичиков",
+      "last_name_dative": "Кичикову",
+      "first_initial": "Б",
+      "middle_initial": "Б",
+      "organization": "Объединение административно-технических инспекций города Москвы"
+    },
+    {
+      "last_name_nominative": "Кравченко",
+      "last_name_dative": "Кравченко",
+      "first_initial": "И",
+      "middle_initial": "С",
+      "organization": "Объединение административно-технических инспекций города Москвы"
+    },
+    {
+      "last_name_nominative": "Лобанов",
+      "last_name_dative": "Лобанову",
+      "first_initial": "С",
+      "middle_initial": "Д",
+      "organization": "Объединение административно-технических инспекций города Москвы"
+    },
+    {
+      "last_name_nominative": "Мишин",
+      "last_name_dative": "Мишину",
+      "first_initial": "И",
+      "middle_initial": "А",
+      "organization": "Объединение административно-технических инспекций города Москвы"
+    },
+    {
+      "last_name_nominative": "Тоненьков",
+      "last_name_dative": "Тоненькову",
+      "first_initial": "И",
+      "middle_initial": "А",
+      "organization": "Объединение административно-технических инспекций города Москвы"
+    },
+    {
+      "last_name_nominative": "Цатурян",
+      "last_name_dative": "Цатуряну",
+      "first_initial": "Г",
+      "middle_initial": "Б",
+      "organization": "Объединение административно-технических инспекций города Москвы"
+    },
+    {
+      "last_name_nominative": "Шинин",
+      "last_name_dative": "Шинину",
+      "first_initial": "С",
+      "middle_initial": "Ю",
+      "organization": "Объединение административно-технических инспекций города Москвы"
+    }
+  ]
+}

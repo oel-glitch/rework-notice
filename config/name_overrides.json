@@ -1,0 +1,44 @@
+{
+  "overrides": [
+    {
+      "word_nominative": "гомер",
+      "word_value": "гомеру",
+      "word_type": "surname",
+      "gender": "male",
+      "case": "datv",
+      "comment": "Фамилия Гомер склоняется как -у (не -ам)"
+    },
+    {
+      "word_nominative": "гомер",
+      "word_value": "гомера",
+      "word_type": "surname",
+      "gender": "male",
+      "case": "gent",
+      "comment": "Фамилия Гомер в родительном падеже"
+    },
+    {
+      "word_nominative": "вагнер",
+      "word_value": "вагнеру",
+      "word_type": "surname",
+      "gender": "male",
+      "case": "datv",
+      "comment": "Фамилия Вагнер склоняется как -у"
+    },
+    {
+      "word_nominative": "фишер",
+      "word_value": "фишеру",
+      "word_type": "surname",
+      "gender": "male",
+      "case": "datv",
+      "comment": "Фамилия Фишер склоняется как -у"
+    },
+    {
+      "word_nominative": "миллер",
+      "word_value": "миллеру",
+      "word_type": "surname",
+      "gender": "male",
+      "case": "datv",
+      "comment": "Фамилия Миллер склоняется как -у"
+    }
+  ]
+}

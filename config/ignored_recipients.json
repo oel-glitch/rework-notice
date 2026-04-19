@@ -1,0 +1,25 @@
+{
+  "description": "Configuration for filtering recipients from resolution parsing",
+  "ignore_prefixes": [
+    "+"
+  ],
+  "ignore_keywords": [
+    "в дело",
+    "в работу",
+    "на контроль"
+  ],
+  "service_roles": [
+    "исполнитель",
+    "ответственный исполнитель"
+  ],
+  "ignored_executor_names": [
+    "Воронков",
+    "Воронкова",
+    "Ларин",
+    "Ларина",
+    "Аравин",
+    "Аравина",
+    "Фисков",
+    "Фискова"
+  ]
+}

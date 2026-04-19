@@ -1,0 +1,17 @@
+{
+  "description": "Keywords for parsing and logic determination",
+  "union_response": {
+    "exclude_keywords": ["НПА", "нпа"],
+    "deadline_keywords": ["срок", "сроком", "в срок до", "в срок"],
+    "proximity_threshold": 200
+  },
+  "resolution_markers": {
+    "resolution_start": ["РЕЗОЛЮЦИЯ", "Резолюция"],
+    "date_patterns": ["от", "дата"],
+    "recipient_patterns": ["кому", "адресат"]
+  },
+  "portal_sources": {
+    "nash_gorod": ["Наш город", "наш город", "nashgorod"],
+    "mos_ru": ["mos.ru", "МОС.РУ", "Портал МОС.РУ"]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "description": "UI configuration for the application",
+  "theme": "windows_xp",
+  "colors": {
+    "background": "#ECE9D8",
+    "primary": "#4A5A3F",
+    "secondary": "#D4D0C8",
+    "accent": "#B0B0B0",
+    "text": "#000000",
+    "border": "#808080",
+    "button": "#D4D0C8",
+    "button_active": "#C0C0C0"
+  },
+  "fonts": {
+    "main": {
+      "family": "Tahoma",
+      "size": 9,
+      "weight": "normal"
+    },
+    "header": {
+      "family": "Tahoma",
+      "size": 12,
+      "weight": "bold"
+    },
+    "button": {
+      "family": "Tahoma",
+      "size": 9,
+      "weight": "bold"
+    },
+    "console": {
+      "family": "Consolas",
+      "size": 9,
+      "weight": "normal"
+    }
+  },
+  "window": {
+    "width": 1100,
+    "height": 750,
+    "title": "Парсер PDF и генератор Word документов - ОАТИ"
+  },
+  "button_labels": {
+    "select_pdf": "Выбрать PDF",
+    "process": "Обработать",
+    "clear": "Очистить",
+    "directors": "Директора",
+    "inspector_chiefs": "Начальники инспекций"
+  }
+}
